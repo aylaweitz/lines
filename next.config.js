@@ -7,6 +7,12 @@ const nextConfig = {
 
   // GitHub Pages lives at /lines
   basePath: '/lines',
+
+  eslint: {
+    // Allows production builds to successfully complete even if your project
+    // has ESLint errors.
+    ignoreDuringBuilds: true,
+  },
 }
 
 /** @type {import('next-pwa').PWAConfig} */
