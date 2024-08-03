@@ -1,0 +1,29 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@font-face {
+  font-weight: normal;
+  font-style: normal;
+}
+
+/* Fill full window height. */
+html,
+body,
+div#__next {
+  height: 100%;
+}
+
+html {
+  color-scheme: light;
+}
+
+html[data-theme='dark'] {
+  color-scheme: dark;
+}
+
+ol,
+ul,
+menu {
+  list-style: inherit;
+}
