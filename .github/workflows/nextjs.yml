@@ -20,6 +20,10 @@ concurrency:
   group: 'pages'
   cancel-in-progress: false
 
+env:
+  # set base path when deployed with github pages
+  NEXT_BASE_PATH: '/lines'
+
 jobs:
   # Build job
   build:

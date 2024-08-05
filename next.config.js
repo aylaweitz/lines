@@ -5,8 +5,8 @@ const nextConfig = {
   reactStrictMode: true,
   output: 'export',
 
-  // GitHub Pages lives at /lines
-  basePath: '/lines',
+  // set from env so it can conditionally be set when deploying to GitHub Pages
+  basePath: process.env.NEXT_BASE_PATH,
 
   eslint: {
     // Allows production builds to successfully complete even if your project
