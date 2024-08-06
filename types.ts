@@ -11,4 +11,20 @@ export type Line = {
    * Line description.
    */
   description: string
+  /**
+   * Line wavelength (angstrom)
+   */
+  wavelength: number
+  /**
+   * Line wavelength
+   */
+  instruments: string[]
+  /**
+   * Region of Solar atm that this line probes
+   */
+  regions: string[]
+  /**
+   * Wavelength range (e.g. "EUV", "Visible", ...)
+   */
+  wave_range: string
 }

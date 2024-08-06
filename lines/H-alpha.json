@@ -1,0 +1,8 @@
+{
+  "name": "H-alpha",
+  "wavelength": 6562.8,
+  "description": "Hydrogen Alpha",
+  "regions": ["Chromosphere"],
+  "wave_range": "Visible",
+  "instruments": ["VBI"]
+}

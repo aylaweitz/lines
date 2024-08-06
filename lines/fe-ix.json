@@ -1,0 +1,8 @@
+{
+  "name": "Fe IX",
+  "wavelength": 174,
+  "description": "Iron IX emission line",
+  "regions": ["Corona"],
+  "wave_range": "EUV",
+  "instruments": ["AIA", "EUI"]
+}

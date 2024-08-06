@@ -1,0 +1,8 @@
+{
+  "name": "Mg II h",
+  "wavelength": 2803.52,
+  "description": "...",
+  "regions": ["Transition Region"],
+  "wave_range": "...",
+  "instruments": ["IRIS"]
+}

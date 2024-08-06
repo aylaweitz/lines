@@ -1,4 +1,8 @@
 {
   "name": "Si IV",
-  "description": "Silicon IV emission line"
+  "wavelength": 1400,
+  "regions": ["Transition Region"],
+  "instruments": ["IRIS"],
+  "wave_range": "...",
+  "description": "https://iris.lmsal.com/itn38/iris_lines.html#si-iv"
 }

@@ -1,0 +1,8 @@
+{
+  "name": "H-beta",
+  "wavelength": 486.139,
+  "description": "Hydrogen Beta",
+  "regions": ["Chromosphere"],
+  "wave_range": "...",
+  "instruments": ["VBI"]
+}
