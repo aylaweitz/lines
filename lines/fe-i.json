@@ -1,0 +1,9 @@
+{
+  "name": "Fe I",
+  "wavelength": 6173,
+  "description": "formation height: https://ui.adsabs.harvard.edu/abs/2011SoPh..271...27F/abstract",
+  "regions": ["Photosphere"],
+  "wave_range": "...",
+  "instruments": ["HMI", "Phi"],
+  "Usage": ["Magnetic field measurements"]
+}

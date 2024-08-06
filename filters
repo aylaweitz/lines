@@ -1,0 +1,9 @@
+// Example filter function for instruments
+const filterByInstrument = (lines, instrument) => {
+  return lines.filter(line => line.instruments.includes(instrument));
+};
+
+// Example filter function for regions
+const filterByRegion = (lines, region) => {
+  return lines.filter(line => line.region === region);
+};

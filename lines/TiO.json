@@ -1,0 +1,9 @@
+{
+    "name": "TiO",
+    "wavelength": 705.839,
+    "description": "...",
+    "regions": ["..."],
+    "wave_range": "...",
+    "instruments": ["VBI"]
+  }
+  
